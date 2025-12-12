@@ -30,29 +30,29 @@ sudo apt install python3-pyqt5
 
 ## Create tray_monitor_control.py and save it as
 
-`
+```bash
 /usr/local/bin/tray_monitor_control.py
-`
+```
 
 Make executable:
 
-`
+```bash
 sudo chmod +x /usr/local/bin/tray_monitor_control.py
-`
+```
 
 ## Start the tray automatically on login
 
 Create autostart entry
 
-`
+```bash
 mkdir -p ~/.config/autostart
 
 nano ~/.config/autostart/monitor_tray.desktop
-`
+```
 
 Paste:
 
-`
+```bash
 [Desktop Entry]
 
 Type=Application
@@ -66,7 +66,7 @@ NoDisplay=false
 X-GNOME-Autostart-enabled=true
 
 Name=Monitor Control Tray
-`
+```
 
 You will now see a monitor icon in your system tray with a context menu:
 

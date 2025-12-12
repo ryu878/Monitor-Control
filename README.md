@@ -46,7 +46,6 @@ Create autostart entry
 
 ```bash
 mkdir -p ~/.config/autostart
-
 nano ~/.config/autostart/monitor_tray.desktop
 ```
 
@@ -54,24 +53,16 @@ Paste:
 
 ```bash
 [Desktop Entry]
-
 Type=Application
-
 Exec=/usr/local/bin/tray_monitor_control.py
-
 Hidden=false
-
 NoDisplay=false
-
 X-GNOME-Autostart-enabled=true
-
 Name=Monitor Control Tray
 ```
 
 You will now see a monitor icon in your system tray with a context menu:
 
 - Turn Off Monitors
-
 - Turn On Monitors
-
 - Quit

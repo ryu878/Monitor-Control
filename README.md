@@ -66,3 +66,12 @@ You will now see a monitor icon in your system tray with a context menu:
 - Turn Off Monitors
 - Turn On Monitors
 - Quit
+
+# Notes
+
+This script works on X11 sessions.
+Check your session type:
+
+```bash
+echo $XDG_SESSION_TYPE
+```

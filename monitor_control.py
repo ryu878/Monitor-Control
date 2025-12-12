@@ -3,6 +3,12 @@ import subprocess
 import sys
 import re
 
+# python monitor_control.py off  HDMI-0     - left top
+# python monitor_control.py off  DP-0
+# python monitor_control.py off DP-4       - right top
+
+# python monitor_control.py off DP-4 && python monitor_control.py off HDMI-0
+# python monitor_control.py on DP-4 && python monitor_control.py on HDMI-0
 
 def get_monitors():
     """

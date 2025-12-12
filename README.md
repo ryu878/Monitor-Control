@@ -29,6 +29,7 @@ nano ~/.config/autostart/monitor_tray.desktop
 `
 
 Paste:
+
 `
 [Desktop Entry]
 Type=Application
@@ -37,7 +38,6 @@ Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
 Name=Monitor Control Tray
-
 `
 
 You will now see a monitor icon in your system tray with a context menu:

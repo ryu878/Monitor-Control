@@ -1,11 +1,32 @@
 # Monitor Control
-Python script that detects all connected monitors on Ubuntu (X11) and allows you to turn specific monitors off/on by name.
 
+A lightweight Python utility for Ubuntu/Zorin OS (X11) that detects connected monitors and provides a system tray icon to quickly turn specific monitors ON or OFF using xrandr.
+
+Useful for multi-monitor setups (e.g., laptops with external displays) where you want quick control without navigating system settings.
+
+---
+
+## Features
+
+- System tray icon with:
+  - **Turn Off Monitors**
+  - **Turn On Monitors**
+  - **Quit**
+- Uses **PyQt5** for reliable tray support on Ubuntu/X11.
+- Works with any number of monitors (set names inside the script).
+- Optional autostart on login.
+
+
+Uses PyQt5 for stable tray integration on Ubuntu/X11.
+
+Works with any number of monitors (configure names inside the script).
+
+Autostart support.
 
 ## Install requirements
-`
+```bash
 sudo apt install python3-pyqt5
-`
+```
 
 ## Create tray_monitor_control.py and save it as
 

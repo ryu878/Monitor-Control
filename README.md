@@ -25,6 +25,7 @@ Create autostart entry
 
 `
 mkdir -p ~/.config/autostart
+
 nano ~/.config/autostart/monitor_tray.desktop
 `
 
@@ -32,11 +33,17 @@ Paste:
 
 `
 [Desktop Entry]
+
 Type=Application
+
 Exec=/usr/local/bin/tray_monitor_control.py
+
 Hidden=false
+
 NoDisplay=false
+
 X-GNOME-Autostart-enabled=true
+
 Name=Monitor Control Tray
 `
 
